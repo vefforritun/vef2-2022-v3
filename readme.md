@@ -1,6 +1,6 @@
 # Vefforritun 2, 2022. Verkefni 3: Viðburðakerfis vefþjónustur
 
-[Kynning á verkefni í tíma](https://youtu.be/).
+[Kynning á verkefni í tíma](https://youtu.be/2eikxqJ80pM).
 
 Verkefnið er framhald af [verkefni 2](https://github.com/vefforritun/vef2-2022-v2/).
 
