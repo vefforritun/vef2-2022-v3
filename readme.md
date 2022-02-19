@@ -46,11 +46,11 @@ Huga þarf að öryggi, sér í lagi að engar _xss_ holur séu til staðar. Ley
 * `/users/:id`
   * `GET` skilar notanda, aðeins ef notandi sem framkvæmir er stjórnandi
 * `/users/register`
-  * `POST` staðfestir og býr til notanda. Skilar auðkenni og netfangi. Notandi sem búinn er til skal aldrei vera stjórnandi
+  * `POST` staðfestir og býr til notanda. Skilar auðkenni og nafn. Notandi sem búinn er til skal aldrei vera stjórnandi
 * `/users/login`
-  * `POST` með netfangi (eða notandanafni) og lykilorði skilar token ef gögn rétt
+  * `POST` með notandanafni og lykilorði skilar token ef gögn rétt
 * `/users/me`
-  * `GET` skilar upplýsingum um notanda sem á token, auðkenni og netfangi, aðeins ef notandi innskráður
+  * `GET` skilar upplýsingum um notanda sem á token, auðkenni og nafn, aðeins ef notandi innskráður
 
 Aldrei skal skila eða sýna hash fyrir lykilorð.
 
@@ -141,4 +141,4 @@ Skil skulu innihalda:
 | Útgáfa | Breyting                                     |
 |--------|----------------------------------------------|
 | 0.1    | Fyrsta útgáfa                                |
-| 0.2    | Fjarlægja `stylelint`, laga lýsingu á testum |
+| 0.2    | Fjarlægja `stylelint`, laga lýsingu á testum, fjarlægja netfang úr lýsingu |
