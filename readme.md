@@ -103,14 +103,11 @@ Huga þarf að öryggi, sér í lagi að engar _injection_ holur séu til staða
 
 ## Tæki, tól og test
 
-Uppsett er `eslint`, `prettier` og `stylelint` fyrir JavaScript og CSS. Engar villur skulu koma fram ef `npm run lint` er keyrt.
+Uppsett er `eslint` fyrir JavaScript. Engar villur skulu koma fram ef `npm run lint` er keyrt.
 
 `jest` er uppsett með dæmi um hvernig keyra megi test á _sér_ test gagnagrunn.
 
-Skrifa skal test fyrir a.m.k.:
-
-* eina skráningu í gagnagrunn
-* validation á einu formi
+Skrifa skal test fyrir a.m.k. eina aðgerð á hvern endapunkt.
 
 Setja skal upp vefinn á Heroku tengt við GitHub með Heroku postgres settu upp.
 
@@ -139,8 +136,9 @@ Skil skulu innihalda:
 
 ---
 
-> Útgáfa 0.1
+> Útgáfa 0.2
 
-| Útgáfa | Breyting                     |
-|--------|------------------------------|
-| 0.1    | Fyrsta útgáfa                |
+| Útgáfa | Breyting                                     |
+|--------|----------------------------------------------|
+| 0.1    | Fyrsta útgáfa                                |
+| 0.2    | Fjarlægja `stylelint`, laga lýsingu á testum |
