@@ -93,8 +93,8 @@ Fyrir skráningar:
 
 Bæta þarf við:
 
-* Notendatöflu
-* Tengingu viðburða við notanda sem bjó hann til í stað þess að skráning hafi `name` verður tafla fyrir skráningar _tengitafla_ milli notenda og viðburða
+* `name` við notendatöflu
+* Tengingu viðburða við notanda sem bjó hann til í stað þess að skráning hafi `name`. Skráningartaflan verður _tengitafla_ milli notenda og viðburða sem á sér `comment` við þá skráningu
 * Virkni til þess að eyða viðburðum m.t.t. þess að tenging er milli skráninga og viðburðs og hvað gera eigi við þær skráningar
 
 Huga þarf að öryggi, sér í lagi að engar _injection_ holur séu til staðar.
