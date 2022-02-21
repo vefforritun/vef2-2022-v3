@@ -24,6 +24,7 @@ Geyma skal gögn fyrir notanda í töflu í gagnagrunni:
 * `name`, nafn notanda, krafist, hámark 64 stafir
 * `username` einkvæmt og krafist, hámark 64 stafir
 * `password` krafist, hámark 256 stafir
+* `admin`, boolean gildi um hvort notandi sé stjórnandi eða ekki
 
 Útbúa skal a.m.k. einn notanda með gefið notendanafn lykilorð í `readme` í skilum.
 
@@ -142,3 +143,4 @@ Skil skulu innihalda:
 |--------|----------------------------------------------|
 | 0.1    | Fyrsta útgáfa                                |
 | 0.2    | Fjarlægja `stylelint`, laga lýsingu á testum, fjarlægja netfang úr lýsingu |
+| 0.3 | Bæta við `admin` í notendatöflu |
